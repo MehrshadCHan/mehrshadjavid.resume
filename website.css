@@ -1,0 +1,138 @@
+/* Global styles */
+body {
+    font-family: 'Helvetica Neue', sans-serif;
+    margin: 0;
+    padding: 0;
+ }
+ 
+ header {
+    background-color: #2d2d2d;
+    color: #fff;
+    padding: 50px;
+ }
+ 
+ h1 {
+    margin: 0;
+    font-size: 48px;
+ }
+ 
+ h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+ }
+ 
+ p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+ }
+ 
+ ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+ }
+ 
+ a {
+    color: #fff;
+    text-decoration: none;
+ }
+ 
+ nav ul {
+    display: flex;
+    justify-content: flex-end;
+ }
+ 
+ nav li {
+    margin-left: 20px;
+ }
+ 
+ nav a:hover {
+    color: #ccc;
+ }
+ 
+ /* Page-specific styles */
+ .intro {
+    max-width: 700px;
+    margin: 0 auto;
+ }
+ 
+ #about {
+    background-color: #f1f1f1;
+    padding: 50px;
+ }
+ 
+ #skills {
+    padding: 50px;
+ }
+ 
+ #skills ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+ }
+ 
+ #skills li {
+    flex-basis: calc(50% - 10px);
+    margin-bottom: 20px;
+ }
+ 
+ #experience {
+    background-color: #f1f1f1;
+    padding: 50px;
+ }
+ 
+ #experience ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+ }
+ 
+ #experience li {
+    margin-bottom: 40px;
+ }
+ 
+ #experience h3 {
+    margin-bottom: 10px;
+ }
+ 
+ #education {
+    padding: 50px;
+ }
+ 
+ #education li {
+    margin-bottom: 20px;
+ }
+ 
+ #contact {
+    background-color: #f1f1f1;
+    padding: 50px;
+ }
+ 
+ @media only screen and (max-width: 768px) {
+    header {
+       padding: 20px;
+    }
+ 
+    h1 {
+       font-size: 36px;
+    }
+ 
+    #about,
+    #skills,
+    #experience,
+    #education,
+    #contact {
+       padding: 20px;
+    }
+ 
+    #skills ul {
+       flex-wrap: wrap;
+       justify-content: center;
+    }
+ 
+    #skills li {
+       flex-basis: 100%;
+    }
+ }
+ 
